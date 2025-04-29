@@ -104,7 +104,7 @@ export const Login = () => {
               type="password"
               required
               className="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-lg shadow-sm focus:ring-blue-500 focus:border-blue-500"
-              placeholder="••••••••"
+              placeholder=""
               {...register("password", { required: true })}
             />
             {errors.password && (

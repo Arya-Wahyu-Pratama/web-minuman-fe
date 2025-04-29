@@ -5,7 +5,7 @@ const categories = ["Fast Food", "Tradisional", "Minuman", "Dessert"];
 const RestaurantList = () => {
   return (
     <div className="p-6 bg-white rounded-2xl shadow-lg max-w-7xl mx-auto">
-      <h2 className="text-3xl font-bold mb-6 text-center text-gray-800">Daftar Restoran</h2>
+      <h2 className="text-3xl font-bold mb-6 text-center text-gray-800">Daftar Toko</h2>
 
       <div className="flex mb-6">
         <input
@@ -35,7 +35,7 @@ const RestaurantList = () => {
             key={item}
             className="bg-white p-6 border border-gray-200 rounded-lg shadow-md hover:shadow-xl transition-shadow"
           >
-            <h4 className="text-2xl font-semibold mb-3 text-gray-800">Restoran #{item}</h4>
+            <h4 className="text-2xl font-semibold mb-3 text-gray-800">Toko #{item}</h4>
             <p className="text-gray-600 mb-4">Alamat: Jalan Makan No.{item}</p>
             <Link
               to={`/menu/${item}`}
