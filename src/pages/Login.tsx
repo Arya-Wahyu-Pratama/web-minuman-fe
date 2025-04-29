@@ -47,7 +47,7 @@ export const Login = () => {
     <div
       className="min-h-screen flex items-center justify-center px-4 relative"
       style={{
-        backgroundImage: "url('https://images2.alphacoders.com/116/1167681.jpg')",
+        backgroundImage: "url('https://png.pngtree.com/thumb_back/fw800/background/20240323/pngtree-er-wave-splash-with-fruits-background-for-fruit-juice-drink-realistic-image_15677861.jpg')",
         backgroundSize: "cover",
         backgroundPosition: "center"
       }}
