@@ -1,5 +1,10 @@
 {
-  "rewrites":  [
-    {"source": "/(.*)", "destination": "/"}
+  "headers": [
+    {
+      "source": "/api/(.*)",
+      "headers": [
+        { "key": "Access-Control-Allow-Origin", "value": "https://web-minuman-fe.vercel.app" }
+      ]
+    }
   ]
 }
